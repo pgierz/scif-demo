@@ -1,0 +1,11 @@
+name: Sci-F-Demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - jupyterlab_rise
+  - pip
+  - pip:
+      - scif
